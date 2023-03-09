@@ -1,0 +1,7 @@
+{
+    "output_dir": "",
+    "genome_id": "",
+    "fastq_files_pattern": "",
+    "is_paired": "",
+    "bwa_index_path": ""
+}
