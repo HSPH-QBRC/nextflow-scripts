@@ -75,7 +75,7 @@ process SORT_AND_COMPRESS {
 
     tag "SAMBAMBA sort and compress on $samfile"
     publishDir "${params.output_dir}/sorted_bams", mode:"copy"
-    container "docker.io/blawney/sambamba:0.8.2"
+    container "ghcr.io/hsph-qbrc/nextflow-scripts/sambamba:0.8.2"
     cpus 4
     memory '8 GB'
 
